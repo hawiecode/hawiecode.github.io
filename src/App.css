@@ -338,12 +338,13 @@ filter: brightness(0) saturate(100%) invert(0%) sepia(7%) saturate(98%) hue-rota
     margin: 14px 0 75px 0;
 }
 .skill-slider {
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
   position: relative;
 }
 .skill-slider .item img {
-  width: 50%;
+  width: 100px;
+  height: 100px;
   margin: 0 auto 15px auto;
 }
 .background-image-left {
@@ -603,7 +604,7 @@ filter: brightness(0) saturate(100%) invert(0%) sepia(7%) saturate(98%) hue-rota
   left: 0;
   bottom: 0;
   right: 0;
-}
+} 
 .new-email-bx input {
   width: 100%;
   color: #121212;

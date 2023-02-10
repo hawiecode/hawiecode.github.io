@@ -1,6 +1,12 @@
-import meter1 from "../assets/img/meter1.svg";
-import meter2 from "../assets/img/meter2.svg";
-import meter3 from "../assets/img/meter3.svg";
+import meter1 from "../assets/img/html-5.svg";
+import meter2 from "../assets/img/css-3.svg";
+import meter3 from "../assets/img/javascript.svg";
+import meter4 from "../assets/img/tailwind-css.svg";
+import meter5 from "../assets/img/react.svg";
+import meter6 from "../assets/img/bootstrap.svg";
+import meter7 from "../assets/img/material-ui.svg";
+import meter8 from "../assets/img/adobe-photoshop.svg";
+import meter9 from "../assets/img/adobe-illustrator.svg";
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import arrow1 from "../assets/img/arrow1.svg";
@@ -35,23 +41,43 @@ export const Skills = () => {
                 <div className="col-12">
                     <div className="skill-bx wow zoomIn">
                         <h2>Habilidades</h2>
-                        <p>Para ser programador se requieren ciertos conocimientos.<br></br>Estos son los mios.</p>
+                        <p>Para ser programador se requieren ciertos conocimientos.<br></br> Estos son los mios.</p>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
                                 <img src={meter1} alt="Image" />
-                                <h5>Web Development</h5>
+                                <h5>HTML5</h5>
                             </div>
                             <div className="item">
                                 <img src={meter2} alt="Image" />
-                                <h5>Brand Identity</h5>
+                                <h5>CSS3</h5>
                             </div>
                             <div className="item">
                                 <img src={meter3} alt="Image" />
-                                <h5>Logo Design</h5>
+                                <h5>javascript</h5>
                             </div>
                             <div className="item">
-                                <img src={meter1} alt="Image" />
-                                <h5>Web Development</h5>
+                                <img src={meter4} alt="Image" />
+                                <h5>Tailwind CSS</h5>
+                            </div>
+                            <div className="item">
+                                <img src={meter5} alt="Image" />
+                                <h5>React JS</h5>
+                            </div>
+                            <div className="item">
+                                <img src={meter6} alt="Image" />
+                                <h5>Bootstrap</h5>
+                            </div>
+                            <div className="item">
+                                <img src={meter7} alt="Image" />
+                                <h5>Material Desing</h5>
+                            </div>
+                            <div className="item">
+                                <img src={meter8} alt="Image" />
+                                <h5>Photoshop</h5>
+                            </div>
+                            <div className="item">
+                                <img src={meter9} alt="Image" />
+                                <h5>Illustrator</h5>
                             </div>
                         </Carousel>
                     </div>
